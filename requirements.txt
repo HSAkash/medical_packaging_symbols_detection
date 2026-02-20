@@ -1,0 +1,20 @@
+dvc==3.59.1
+gradio==5.28.0
+loguru
+numpy==2.2.5
+opencv-python==4.11.0.86
+pillow==11.2.1
+pyprojroot==0.3.0
+python-box==6.0.2
+python-magic==0.4.27
+PyYAML==6.0.2
+scikit-learn==1.6.0
+# change it based on your CUDA version
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch==2.7.0
+torchaudio==2.7.0
+torchvision==0.22.0
+transformers==4.55.2
+ultralytics==8.3.120
+-e .

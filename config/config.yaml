@@ -1,0 +1,43 @@
+generate_classification_list:
+  source_logo_dir: dataset/logos/
+  classification_list_file_path: dataset/classes.txt
+
+splitting_dataset:
+  source_image_dir: dataset/dataset_01
+  source_label_dir: dataset/labels
+  yolo_dir: dataset/yolo
+  train_image_dir: train/images
+  train_label_dir: train/labels
+  val_image_dir: valid/images
+  val_label_dir: valid/labels
+  train_ratio: 0.8
+
+populate_image:
+  source_dataset_dir: dataset/dataset_01
+  source_logo_dir: dataset/logos/
+  target_dir: dataset/yolo_dataset_01/
+  classification_list_file_path: dataset/classes.txt
+  image_size_limit: 720
+  logo_size_ratio: 0.10
+
+generate_training_yaml:
+  root_path: dataset/yolo_dataset_01
+  train: train/images
+  test: test/images
+  val: valid/images
+  class_file_path: dataset/classes.txt
+  train_yaml_path: train.yaml
+
+training:
+  yaml_path: dataset/yolo_dataset_01/train.yaml
+  project_path: dataset/yolo_dataset_01
+  project_name: results_01 # name of the training run
+  model: train.yaml
+  model_save_path: models/logo_detection.pt
+  resume: true
+
+evaluation:
+  model_path: models/logo_detection.pt
+  yaml_path: dataset/yolo_dataset_01/train.yaml
+  project_path: dataset/yolo_dataset_01 # path to save the evaluation results
+  project_name: results_val # name of the evaluation run 

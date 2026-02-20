@@ -1,0 +1,58 @@
+stages:
+  generate_classification_list:
+    cmd: python src/pipeline/stage_01_generate_classification_list.py
+    deps:
+      - src/pipeline/stage_01_generate_classification_list.py
+      - dataset/logos
+    outs:
+      - dataset/classes.txt
+
+  splitting_dataset:
+    cmd: python src/pipeline/stage_03_splitting_dataset.py
+    deps:
+      - src/pipeline/stage_03_splitting_dataset.py
+      - dataset/dataset_01
+      - dataset/classes.txt
+    outs:
+      - dataset/dataset_01/train
+      - dataset/dataset_01/valid
+
+  populate_image:
+    cmd: python src/pipeline/stage_02_populate_image.py
+    deps:
+      - src/pipeline/stage_02_populate_image.py
+      - dataset/dataset_01
+      - dataset/logos
+      - dataset/classes.txt
+    outs:
+      - dataset/yolo_dataset_01
+
+  generate_train_yaml:
+    cmd: python src/pipeline/stage_04_generate_train_yaml.py
+    deps:
+      - src/pipeline/stage_04_generate_train_yaml.py
+      - dataset/yolo_dataset_01/train/images
+      - dataset/yolo_dataset_01/train/labels
+      - dataset/yolo_dataset_01/valid/images
+      - dataset/yolo_dataset_01/valid/labels
+    outs:
+      - dataset/yolo_dataset_01/train.yaml
+
+  training:
+    cmd: python src/pipeline/stage_05_training.py
+    deps:
+      - src/pipeline/stage_05_training.py
+      - dataset/yolo_dataset_01/train.yaml
+      - dataset/yolo_dataset_01/train/images
+      - dataset/yolo_dataset_01/train/labels
+      - dataset/yolo_dataset_01/valid/images
+      - dataset/yolo_dataset_01/valid/labels
+    outs:
+      - models/logo_detection.pt
+  evaluation:
+    cmd: python src/pipeline/stage_06_evaluation.py
+    deps:
+      - src/pipeline/stage_06_evaluation.py
+      - models/logo_detection.pt
+      - dataset/yolo_dataset_01/valid/images
+      - dataset/yolo_dataset_01/valid/labels
