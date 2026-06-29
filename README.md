@@ -2,8 +2,9 @@
 
 🎥 **Demo Video (UI Walkthrough)**
 
-> **Place your recorded UI demo video here (right after the title).**
-> Example: GitHub supports video links or embedded preview via attachments.
+
+https://github.com/user-attachments/assets/3b2aa1c4-0200-41c5-a202-570dc91ef83d
+
 
 ---
 
@@ -41,41 +42,41 @@ The system detects the following warning symbols:
 <table>
 <tr>
 <td align="center">
-<img src="assets/detection/breastfeeding.webp" width="150"/><br/>
+<img src="assets/logos/breastfeeding.png" width="150"/><br/>
 <b>Breastfeeding</b>
 </td>
 
 <td align="center">
-<img src="assets/detection/dont_drink.webp" width="150"/><br/>
+<img src="assets/logos/dont_drink.png" width="150"/><br/>
 <b>Do Not Drink</b>
 </td>
 
 <td align="center">
-<img src="assets/detection/drowsiness.webp" width="150"/><br/>
+<img src="assets/logos/drowsiness.png" width="150"/><br/>
 <b>Drowsiness</b>
 </td>
 </tr>
 
 <tr>
 <td align="center">
-<img src="assets/detection/external_use_only.webp" width="150"/><br/>
+<img src="assets/logos/external_use_only.png" width="150"/><br/>
 <b>External Use Only</b>
 </td>
 
 <td align="center">
-<img src="assets/detection/pregnant.webp" width="150"/><br/>
+<img src="assets/logos/pragnet.png" width="150"/><br/>
 <b>Pregnant</b>
 </td>
 
 <td align="center">
-<img src="assets/detection/protect_from_light.webp" width="150"/><br/>
+<img src="assets/logos/protect_from_light.png" width="150"/><br/>
 <b>Protect From Light</b>
 </td>
 </tr>
 
 <tr>
 <td align="center" colspan="3">
-<img src="assets/detection/temperature.webp" width="150"/><br/>
+<img src="assets/logos/temperature.png" width="150"/><br/>
 <b>Temperature</b>
 </td>
 </tr>
@@ -98,16 +99,35 @@ Since real annotated warning-symbol datasets are limited, this project generates
 4. **Valid Placement Region Selection:** Choose flat/clean area inside panel
 5. **Overlay Warning Logo:** Place symbol + auto-generate bounding box label
 
-📌 **Add image here:** Full process example (4-step visual)
+<div align="center">
 
-> `images/synthetic_pipeline_example.png`
+<table>
+<tr>
+<td align="center">
+<img src="assets/package_label_creation/01.jpg" width="300"/><br/>
+<b>Raw package image</b>
+</td>
 
-📌 **Add images here (if you want separate steps):**
+<td align="center">
+<img src="assets/package_label_creation/02.png" width="300"/><br/>
+<b>SAM3 mask</b>
+</td>
 
-* Raw package image: `images/raw_package.jpg`
-* SAM3 mask: `images/sam3_mask.png`
-* Panel/ROI highlighted: `images/panel_roi.png`
-* Final logo overlay result: `images/logo_overlay.png`
+<tr>
+<td align="center">
+<img src="assets/package_label_creation/03.jpg" width="300"/><br/>
+<b>Panel/ROI highlighted</b>
+</td>
+
+<td align="center">
+<img src="assets/package_label_creation/04.png" width="300"/><br/>
+<b>Final logo overlay result</b>
+</td>
+
+
+</table>
+
+</div>
 
 ### 3.2 SAM3 Repo Used
 
@@ -195,11 +215,9 @@ python app.py
 ```
 
 Then open the URL shown in the terminal.
-
-📌 **Add image here:** UI screenshot (optional, since you will use video)
-
-> `images/ui.png`
-
+<div align="center">
+<img src="assets/ui_output/01.png" width="700"/><br/>
+</div>
 ---
 
 ## 6. Training (YOLOv12n)
@@ -212,57 +230,116 @@ Training includes:
 * rotation augmentation (0°, 90°, 180°, 270°)
 * automatic bounding-box annotation from logo placement
 
-📌 **Add image here:** Training pipeline / dataset generation figure (optional)
-
-> `images/training_pipeline.png`
-
 ---
 
 ## 7. Training Results
 
-This repository includes training curves and evaluation outputs.
-
-📌 **Add image here:** Training/validation curves (`results.png`)
-
-> `images/results.png`
+<div align="center">
+<img src="assets/results/results.png" width="700"/><br/>
+</div>
 
 ### 7.1 Curves
 
-📌 Add images here:
+<div align="center">
 
-* F1–Confidence curve: `images/BoxF1_curve.png`
-* Precision–Confidence curve: `images/BoxP_curve.png`
-* Precision–Recall curve: `images/BoxPR_curve.png`
-* Recall–Confidence curve: `images/BoxR_curve.png`
+<table>
+<tr>
+<td align="center">
+<img src="assets/results/BoxF1_curve.png" width="300"/><br/>
+<b>F1–Confidence curve</b>
+</td>
+
+<td align="center">
+<img src="assets/results/BoxP_curve.png" width="300"/><br/>
+<b>Precision–Confidence curve</b>
+</td>
+
+<tr>
+<td align="center">
+<img src="assets/results/BoxPR_curve.png" width="300"/><br/>
+<b>Precision–Recall curve</b>
+</td>
+
+<td align="center">
+<img src="assets/results/BoxR_curve.png" width="300"/><br/>
+<b>Recall–Confidence curve</b>
+</td>
+
+
+</table>
+
+</div>
 
 ### 7.2 Confusion Matrix
 
-📌 Add images here:
+<div align="center">
 
-* Confusion Matrix (raw): `images/confusion_matrix.png`
-* Confusion Matrix (normalized): `images/confusion_matrix_normalized.png`
+<table>
+<tr>
+<td align="center">
+<img src="assets/results_val/confusion_matrix.png" width="300"/><br/>
+<b>Confusion Matrix (raw) (val)</b>
+</td>
 
-### 7.3 Dataset Distribution
+<td align="center">
+<img src="assets/results_val/confusion_matrix_normalized.png" width="300"/><br/>
+<b>Confusion Matrix (normalized) (val)</b>
+</td>
+</table>
 
-📌 Add image here:
-
-* Dataset distribution (labels): `images/labels.jpeg`
-
----
+</div>
 
 ## 8. Prediction / Detection Results (After Training)
 
 Below are example detections for all 7 warning symbols after training.
 
-📌 **Add images here:**
+<div align="center">
 
-* `images/detect_breastfeeding.webp`
-* `images/detect_dont_drink.webp`
-* `images/detect_drowsiness.webp`
-* `images/detect_external_use_only.webp`
-* `images/detect_pregnant.webp`
-* `images/detect_protect_from_light.webp`
-* `images/detect_temperature.webp`
+<table>
+<tr>
+<td align="center">
+<img src="assets/detection/breastfeeding.webp" width="150"/><br/>
+<b>Breastfeeding</b>
+</td>
+
+<td align="center">
+<img src="assets/detection/dont_drink.webp" width="150"/><br/>
+<b>Do Not Drink</b>
+</td>
+
+<td align="center">
+<img src="assets/detection/drowsiness.webp" width="150"/><br/>
+<b>Drowsiness</b>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<img src="assets/detection/external_use_only.webp" width="150"/><br/>
+<b>External Use Only</b>
+</td>
+
+<td align="center">
+<img src="assets/detection/pregnant.webp" width="150"/><br/>
+<b>Pregnant</b>
+</td>
+
+<td align="center">
+<img src="assets/detection/protect_from_light.webp" width="150"/><br/>
+<b>Protect From Light</b>
+</td>
+</tr>
+
+<tr>
+<td align="center" colspan="3">
+<img src="assets/detection/temperature.webp" width="150"/><br/>
+<b>Temperature</b>
+</td>
+</tr>
+
+</table>
+
+</div>
 
 ---
 
@@ -289,21 +366,34 @@ Example format:
 
 ---
 
-## 10. Reference Paper
 
-All methodology details are based on the paper you provided:
+## 10. License
 
-**Detection of Warning Symbols on Medicine Packaging Using a Synthetic Dataset and Lightweight YOLO Model**
+This project is licensed under the Apache License, Version 2.0.
+
+You may obtain a copy of the License at:
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+See the [LICENSE](LICENSE) file for the complete license text.
 
 ---
 
-## 11. License
-
-Add your license here (MIT / Apache 2.0 / etc.)
-
----
-
-## 12. Author
+## 11. Author
 
 **HSAkash**
 Medical Packaging Warning Symbol Detection (WSDF)
+
+## 12. Links
+* [Dataset](https://doi.org/10.34740/kaggle/ds/9531915): https://doi.org/10.34740/kaggle/ds/9531915
+
+```
+@misc{hemel_sharker_akash_2026,
+	title={MedLogoSignDB},
+	url={https://www.kaggle.com/ds/9531915},
+	DOI={10.34740/KAGGLE/DS/9531915},
+	publisher={Kaggle},
+	author={Hemel Sharker Akash},
+	year={2026}
+}
+```
