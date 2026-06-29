@@ -369,22 +369,30 @@ Example format:
 
 ## 10. License
 
-This project is licensed under the Apache License, Version 2.0.
+This repository is released under the Educational and Research Use License (ERUL) v1.0.
 
-You may obtain a copy of the License at:
+The source code may be used only for educational, teaching, and non-commercial academic research purposes.
 
-http://www.apache.org/licenses/LICENSE-2.0
+Any use by companies, non-profit organizations, government organizations, or other entities requires prior written permission from the copyright holder.
 
-See the [LICENSE](LICENSE) file for the complete license text.
+For licensing inquiries, please contact:
+
+Hemel Sharker Akash
+Email: [hemelakash472@gmail.com](mailto:hemelakash472@gmail.com)
+
 
 ---
 
-## 11. Author
+## 11. Acknowledgement
+
+The author gratefully acknowledges [p.AI](https://pharma-ai.de/) GmbH, Berlin, Germany.
+
+## 12. Author
 
 **HSAkash**
 Medical Packaging Warning Symbol Detection (WSDF)
 
-## 12. Links
+## 13. Links
 * [Dataset](https://doi.org/10.34740/kaggle/ds/9531915): https://doi.org/10.34740/kaggle/ds/9531915
 
 ```
