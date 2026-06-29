@@ -1,201 +1,195 @@
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+HS AKASH EDUCATIONAL AND RESEARCH USE LICENSE
+Version 1.0, June 2026
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+Copyright (c) 2026 Hemel Sharker Akash
+All rights reserved.
 
-   1. Definitions.
+This license governs the use of the source code, documentation, configuration
+files, scripts, trained model files, checkpoints, model weights, and other
+materials included in this repository (collectively, the "Materials"), except
+for third-party components that are identified as being governed by separate
+licenses.
 
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
+1. DEFINITIONS
 
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
+1.1 "Educational Use" means use solely for learning, teaching, classroom
+instruction, coursework, academic demonstrations, or educational evaluation.
 
-      "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
-      control with that entity. For the purposes of this definition,
-      "control" means (i) the power, direct or indirect, to cause the
-      direction or management of such entity, whether by contract or
-      otherwise, or (ii) ownership of fifty percent (50%) or more of the
-      outstanding shares, or (iii) beneficial ownership of such entity.
+1.2 "Noncommercial Academic Research" means research conducted primarily to
+advance knowledge and not to develop, improve, support, or provide a commercial
+product, commercial service, or revenue-generating activity.
 
-      "You" (or "Your") shall mean an individual or Legal Entity
-      exercising permissions granted by this License.
+1.3 "Eligible Educational User" means:
 
-      "Source" form shall mean the preferred form for making modifications,
-      including but not limited to software source code, documentation
-      source, and configuration files.
+    a. an individual student, educator, or independent academic researcher; or
 
-      "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but
-      not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+    b. an accredited school, college, university, or public academic research
+       institution using the Materials solely for Educational Use or
+       Noncommercial Academic Research.
 
-      "Work" shall mean the work of authorship, whether in Source or
-      Object form, made available under the License, as indicated by a
-      copyright notice that is included in or attached to the work
-      (an example is provided in the Appendix below).
+1.4 "Organization" includes any company, corporation, partnership, nonprofit
+organization, nongovernmental organization, charity, foundation, association,
+government body, laboratory, institution, or other legal entity.
 
-      "Derivative Works" shall mean any work, whether in Source or Object
-      form, that is based on (or derived from) the Work and for which the
-      editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
-      of this License, Derivative Works shall not include works that remain
-      separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+1.5 "Commercial Use" means any use intended for, connected with, or reasonably
+likely to result in commercial advantage, monetary compensation, revenue,
+business operations, paid services, product development, internal corporate
+research, customer delivery, or other financial benefit.
 
-      "Contribution" shall mean any work of authorship, including
-      the original version of the Work and any modifications or additions
-      to that Work or Derivative Works thereof, that is intentionally
-      submitted to Licensor for inclusion in the Work by the copyright owner
-      or by an individual or Legal Entity authorized to submit on behalf of
-      the copyright owner. For the purposes of this definition, "submitted"
-      means any form of electronic, verbal, or written communication sent
-      to the Licensor or its representatives, including but not limited to
-      communication on electronic mailing lists, source code control systems,
-      and issue tracking systems that are managed by, or on behalf of, the
-      Licensor for the purpose of discussing and improving the Work, but
-      excluding communication that is conspicuously marked or otherwise
-      designated in writing by the copyright owner as "Not a Contribution."
+1.6 "Competitive Use" means using the Materials to develop, train, test,
+benchmark, evaluate, improve, support, or market a product, service, model, or
+system that competes or may compete with a product, service, model, research
+project, or system of the copyright holder.
 
-      "Contributor" shall mean Licensor and any individual or Legal Entity
-      on behalf of whom a Contribution has been received by Licensor and
-      subsequently incorporated within the Work.
+2. PERMITTED USE
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      copyright license to reproduce, prepare Derivative Works of,
-      publicly display, publicly perform, sublicense, and distribute the
-      Work and such Derivative Works in Source or Object form.
+Subject to all terms of this license, the copyright holder grants each Eligible
+Educational User a limited, worldwide, royalty-free, non-exclusive,
+non-transferable license to:
 
-   3. Grant of Patent License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      (except as stated in this section) patent license to make, have made,
-      use, offer to sell, sell, import, and otherwise transfer the Work,
-      where such license applies only to those patent claims licensable
-      by such Contributor that are necessarily infringed by their
-      Contribution(s) alone or by combination of their Contribution(s)
-      with the Work to which such Contribution(s) was submitted. If You
-      institute patent litigation against any entity (including a
-      cross-claim or counterclaim in a lawsuit) alleging that the Work
-      or a Contribution incorporated within the Work constitutes direct
-      or contributory patent infringement, then any patent licenses
-      granted to You under this License for that Work shall terminate
-      as of the date such litigation is filed.
+    a. access, download, and run the Materials;
 
-   4. Redistribution. You may reproduce and distribute copies of the
-      Work or Derivative Works thereof in any medium, with or without
-      modifications, and in Source or Object form, provided that You
-      meet the following conditions:
+    b. study and evaluate the Materials;
 
-      (a) You must give any other recipients of the Work or
-          Derivative Works a copy of this License; and
+    c. modify the Materials and create derivative works; and
 
-      (b) You must cause any modified files to carry prominent notices
-          stating that You changed the files; and
+    d. share the Materials or derivative works with other Eligible Educational
+       Users solely for Educational Use or Noncommercial Academic Research,
+       provided that Section 3 is followed.
 
-      (c) You must retain, in the Source form of any Derivative Works
-          that You distribute, all copyright, patent, trademark, and
-          attribution notices from the Source form of the Work,
-          excluding those notices that do not pertain to any part of
-          the Derivative Works; and
+Receiving a salary, scholarship, stipend, or ordinary academic funding does not
+by itself make otherwise permitted teaching or academic research a Commercial
+Use. Sponsored research intended for commercial development is not permitted
+without prior written permission.
 
-      (d) If the Work includes a "NOTICE" text file as part of its
-          distribution, then any Derivative Works that You distribute must
-          include a readable copy of the attribution notices contained
-          within such NOTICE file, excluding those notices that do not
-          pertain to any part of the Derivative Works, in at least one
-          of the following places: within a NOTICE text file distributed
-          as part of the Derivative Works; within the Source form or
-          documentation, if provided along with the Derivative Works; or,
-          within a display generated by the Derivative Works, if and
-          wherever such third-party notices normally appear. The contents
-          of the NOTICE file are for informational purposes only and
-          do not modify the License. You may add Your own attribution
-          notices within Derivative Works that You distribute, alongside
-          or as an addendum to the NOTICE text from the Work, provided
-          that such additional attribution notices cannot be construed
-          as modifying the License.
+3. CONDITIONS
 
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications, or
-      for any such Derivative Works as a whole, provided Your use,
-      reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
+Any permitted copy, modification, or redistribution must:
 
-   5. Submission of Contributions. Unless You explicitly state otherwise,
-      any Contribution intentionally submitted for inclusion in the Work
-      by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement you may have executed
-      with Licensor regarding such Contributions.
+    a. retain this license, the copyright notice, and all attribution notices;
 
-   6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, service marks, or product names of the Licensor,
-      except as required for reasonable and customary use in describing the
-      origin of the Work and reproducing the content of the NOTICE file.
+    b. clearly identify significant modifications;
 
-   7. Disclaimer of Warranty. Unless required by applicable law or
-      agreed to in writing, Licensor provides the Work (and each
-      Contributor provides its Contributions) on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-      implied, including, without limitation, any warranties or conditions
-      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
-      appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
+    c. be distributed only under this same license unless the copyright holder
+       gives prior written permission for different terms;
 
-   8. Limitation of Liability. In no event and under no legal theory,
-      whether in tort (including negligence), contract, or otherwise,
-      unless required by applicable law (such as deliberate and grossly
-      negligent acts) or agreed to in writing, shall any Contributor be
-      liable to You for damages, including any direct, indirect, special,
-      incidental, or consequential damages of any character arising as a
-      result of this License or out of the use or inability to use the
-      Work (including but not limited to damages for loss of goodwill,
-      work stoppage, computer failure or malfunction, or any and all
-      other commercial damages or losses), even if such Contributor
-      has been advised of the possibility of such damages.
+    d. not be sold, relicensed, sublicensed, or offered for a fee, except for
+       reasonable physical distribution costs; and
 
-   9. Accepting Warranty or Additional Liability. While redistributing
-      the Work or Derivative Works thereof, You may choose to offer,
-      and charge a fee for, acceptance of support, warranty, indemnity,
-      or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
-      on Your own behalf and on Your sole responsibility, not on behalf
-      of any other Contributor, and only if You agree to indemnify,
-      defend, and hold each Contributor harmless for any liability
-      incurred by, or claims asserted against, such Contributor by reason
-      of your accepting any such warranty or additional liability.
+    e. not suggest endorsement, sponsorship, or approval by the copyright
+       holder.
 
-   END OF TERMS AND CONDITIONS
+Publication of academic results produced using the Materials is permitted, but
+the publication must provide appropriate attribution to this repository and its
+copyright holder. This license does not grant permission to use the copyright
+holder's name, logo, or trademarks for advertising or promotion.
 
-   APPENDIX: How to apply the Apache License to your work.
+4. PROHIBITED USES
 
-      To apply the Apache License to your work, attach the following
-      boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don't include
-      the brackets!)  The text should be enclosed in the appropriate
-      comment syntax for the file format. We also recommend that a
-      file or class name and description of purpose be included on the
-      same "printed page" as the copyright notice for easier
-      identification within third-party archives.
+Unless the copyright holder gives prior written permission, you may not use the
+Materials, directly or indirectly, for:
 
-   Copyright [2026] [Hemel Sharker Akash]
+    a. any Commercial Use;
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+    b. any Competitive Use;
 
-       http://www.apache.org/licenses/LICENSE-2.0
+    c. any use by or on behalf of a for-profit company or commercial entity;
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+    d. any use by or on behalf of a nonprofit company, nonprofit organization,
+       nongovernmental organization, charity, foundation, association,
+       government body, private research laboratory, or other Organization that
+       is not an Eligible Educational User;
+
+    e. integration into, or support of, any product, application, platform,
+       hosted service, software-as-a-service offering, API, consulting service,
+       or paid service;
+
+    f. internal business operations, internal corporate research, employee
+       training, commercial benchmarking, proof-of-concept development for a
+       business, or customer demonstrations;
+
+    g. training, fine-tuning, evaluating, or improving a commercial or
+       competitive machine-learning model or dataset;
+
+    h. selling, renting, licensing, sublicensing, or commercially distributing
+       the Materials or any derivative work; or
+
+    i. removing or altering copyright, attribution, authorship, or license
+       notices.
+
+The fact that the Materials are publicly accessible, copied, cloned, or forked
+does not grant any permission beyond the rights expressly stated in this
+license.
+
+5. REQUESTING ADDITIONAL PERMISSION
+
+Any individual or Organization, including a commercial company, nonprofit
+company, nonprofit organization, nongovernmental organization, charity,
+foundation, government entity, or research institution, may request permission
+for a use not automatically permitted by this license.
+
+Permission must be obtained before such use begins. Permission is valid only
+when expressly provided in writing by the copyright holder and may be subject
+to additional conditions, limitations, attribution requirements, or licensing
+fees.
+
+Permission and licensing requests should be sent to:
+
+    Hemel Sharker Akash
+    Email: hemelakash472@gmail.com
+
+6. OWNERSHIP
+
+The Materials are licensed, not sold. The copyright holder retains all right,
+title, and interest in the Materials. No trademark, patent, database, or other
+intellectual-property rights are granted except for the limited copyright
+permissions expressly stated in this license.
+
+Derivative works remain subject to this license. This license does not give the
+copyright holder ownership of a permitted user's original contributions, but
+those contributions may not be distributed as part of the Materials under terms
+that conflict with this license.
+
+7. THIRD-PARTY MATERIALS
+
+Third-party libraries, datasets, models, images, code, or other components may
+be governed by their own licenses or terms. This license does not replace,
+modify, or override those third-party terms. Users are responsible for
+identifying and complying with all applicable third-party licenses.
+
+8. TERMINATION
+
+This license terminates automatically and immediately if you violate any of its
+terms. Upon termination, you must stop using the Materials and delete or destroy
+all copies under your control, except where retention is required by law.
+
+The copyright holder may reinstate your rights in writing. Sections concerning
+ownership, warranty, liability, and enforcement survive termination.
+
+9. DISCLAIMER OF WARRANTY
+
+THE MATERIALS ARE PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, RELIABILITY,
+NONINFRINGEMENT, OR ERROR-FREE OPERATION. YOU USE THE MATERIALS AT YOUR OWN RISK.
+
+10. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDER AND
+CONTRIBUTORS SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, CONSEQUENTIAL, OR OTHER DAMAGES, OR FOR ANY LOSS OF DATA, PROFITS,
+REVENUE, BUSINESS, OR REPUTATION, ARISING FROM OR RELATED TO THE MATERIALS OR
+THIS LICENSE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+11. SEVERABILITY AND NO WAIVER
+
+If any provision of this license is found unenforceable, the remaining
+provisions remain in effect, and the unenforceable provision shall be modified
+only as much as necessary to make it enforceable. Failure to enforce any
+provision is not a waiver of the right to enforce it later.
+
+12. ENTIRE LICENSE
+
+This document states the complete license granted for the Materials unless the
+copyright holder provides a separate written agreement. No oral statement or
+informal communication changes this license.
