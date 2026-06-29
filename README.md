@@ -369,7 +369,8 @@ Example format:
 
 ## 10. License
 
-This repository is released under the Educational and Research Use License (ERUL) v1.0.
+This repository is released under the HS AKASH EDUCATIONAL AND RESEARCH USE LICENSE
+Version 1.0, June 2026.
 
 The source code may be used only for educational, teaching, and non-commercial academic research purposes.
 
